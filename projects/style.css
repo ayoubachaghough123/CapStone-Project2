@@ -1,0 +1,114 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(1, 1, 49, 1) 0%, rgba(0, 1, 1, 1) 50%, rgba(1, 1, 49, 1) 100%);
+}
+
+/* header css */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    height: 100px;
+    justify-content: space-between;
+}
+.user-name {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.doth {
+    color: #5e17eb;
+}
+.right {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right a {
+   margin-right: 50px;
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+   font-family: "Roboto",sans-serif;
+}
+.right :first-child {
+    color: #5e17eb;
+}
+section {
+    width: 100%;
+    height: 80%;
+}
+
+#head {
+    grid-area: 1 / 1 / 2 / 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: solid 2px #16123a;
+    border-radius: 10px;
+    background-color: #040624;
+}
+#head h1 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+#head p {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #b19cd1;
+    font-weight: 500;
+}
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.container img {
+   width: 250px;
+   height: 150px;
+}
+.porfolio-website {
+    grid-area: 2 / 1 / 3 / 3;
+}
+.capstone-project1 {
+    grid-area: 2 / 3 / 3 / 5;
+}
+.porfolio-website, .capstone-project1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: solid 2px #16123a;
+    border-radius: 10px;
+    background-color: #040624;
+}
+.container h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.container p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(211, 208, 208);
+    font-weight: 400;
+}
+.btn {
+    background-color: #5e17eb;
+    border: #5e17eb;
+}
+.btn:hover {
+    background-color: #5e17eb;
+    border: #8979a8;
+}
+
